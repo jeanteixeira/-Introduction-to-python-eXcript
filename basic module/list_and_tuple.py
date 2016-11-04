@@ -73,3 +73,22 @@ print
 t = ('aaa',1,True)
 print(t)
 print(type(t))
+
+print
+
+#IN, NOT IN
+lista = [1,2,3,4,5]
+print(1 in lista)
+
+print(6 in range(1,6))
+print(6 not in range(1,6))
+print(5 in range(1,6))
+
+print
+
+#AND, OR & IN
+print((1 and 6) or (5 and 6)) in range(1,6)
+print((1 and 3) or (5 and 6)) in range(1,6)
+print((1 and 6) and (5 and 6)) in range(1,6)
+print((1 or 6) and (5 or 6)) in range(1,6)
+
